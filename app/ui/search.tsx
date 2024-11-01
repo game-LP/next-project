@@ -19,6 +19,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     console.log("search content is ", term);
     replace(`${pathname}?${params.toString()}`);
   }, 300);
+  // This is about to get a yolo achievements
   return (
     <div className="relative flex flex-1 flex-shrink-0">
       <label htmlFor="search" className="sr-only">
