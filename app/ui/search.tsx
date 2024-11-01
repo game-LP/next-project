@@ -20,7 +20,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     replace(`${pathname}?${params.toString()}`);
   }, 300);
   // This is about to get a yolo achievements
-  // This is about to get a pair extrodinaire
+  // This is about to get a pair extrodinaire with other members.
   return (
     <div className="relative flex flex-1 flex-shrink-0">
       <label htmlFor="search" className="sr-only">
